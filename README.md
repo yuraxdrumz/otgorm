@@ -1,6 +1,6 @@
 # OpenTelemetry Package for the Gorm ORM V1 #
 
-This package is meant to simplify wrapping Gorm requests to databases with OpenTelemetry Tracing Spans. The functionality within the package is as of OpenTelemetry-go v1.0.0-RC1 and is subject to change fairly rapidly as the standard is evolved.
+This package is meant to simplify wrapping Gorm requests to databases with OpenTelemetry Tracing Spans. The functionality within the package is as of OpenTelemetry-go v1.0.0-RC2 and is subject to change fairly rapidly as the standard is evolved.
 
 This package is B.Y.O.E. (Bring Your Own Exporter)
 
