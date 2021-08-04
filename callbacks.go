@@ -110,7 +110,7 @@ func RegisterCallbacks(db *gorm.DB, opts ...Option) {
 	}
 	defaultOpts := []Option{
 		WithTracer(otel.GetTracerProvider().Tracer("otgorm")),
-		WithSpanOptions(trace.WithSpanKind(trace.SpanKindClient)),
+		WithSpanOptions(trace.WithSpanKind(trace.SpanKindInternal)),
 	}
 
 	for _, opt := range append(defaultOpts, opts...) {
